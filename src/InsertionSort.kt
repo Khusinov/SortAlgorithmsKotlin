@@ -10,7 +10,7 @@ fun insertionSort(array: ArrayList<Int>): ArrayList<Int> {
         val temp = array[i]
         pos = i
 
-        //test commit   hhhh
+        //test commit
         while (pos > 0 && temp < array[pos - 1]) {
             val a = array[pos]
             array[pos] = array[pos - 1]
